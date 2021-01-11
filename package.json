@@ -1,0 +1,22 @@
+{
+  "name": "primer-servidor",
+  "version": "1.0.0",
+  "description": "Servidor web",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "filesystem",
+    "download"
+  ],
+  "author": "Luis Velazquez",
+  "license": "ISC",
+  "dependencies": {
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
