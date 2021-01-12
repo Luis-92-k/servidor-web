@@ -21,6 +21,7 @@ http.createServer((request, response) => {
             readFile("./favicon.ico", response);
             break;
         default:
+            response.statusCode= 404;
             readFile("./404.html", response);
             break;
     }
